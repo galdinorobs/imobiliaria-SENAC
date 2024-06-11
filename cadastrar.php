@@ -16,7 +16,6 @@ $categoria = mysqli_real_escape_string($conn,$_POST['categoria']);
 $tipo = mysqli_real_escape_string($conn,$_POST['tipo']);
 $preco = mysqli_real_escape_string($conn,$_POST['preco']);
 
-
 $sql = "INSERT INTO imoveis (titulo, descricao, categoria, tipo, preco) VALUES ('$titulo', '$descricao', '$categoria', '$tipo', '$preco')";
 
 if (mysqli_query($conn,$sql)) {
@@ -24,7 +23,6 @@ if (mysqli_query($conn,$sql)) {
 } else {
     echo "Erro: " . $sql . "<br>" .mysqli_error($conn);
 }
-
     mysqli_close($conn);
 ?>
 
@@ -46,7 +44,7 @@ if (mysqli_query($conn,$sql)) {
                 <li><a href="index.php">Início</a></li>                
                 <li><a href="cadastrar.php">Cadastrar Imóvel</a></li>                
             </ul>        
-        </nav>    
+        </nav>
     </header>    
     <main>        
         <section>            

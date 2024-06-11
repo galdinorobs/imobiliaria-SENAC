@@ -8,7 +8,6 @@
 </head>
 <body>
     <header>
-        <div class="header-container">
         <h1>Bem-vindo à Imobiliária SENAC</h1>
         <nav>
             <ul>
@@ -16,7 +15,6 @@
                 <li><a href="cadastrar.php">Cadastrar Imóvel</a></li>
             </ul>
         </nav>
-        </div>
     </header>
     <main>
         <section class="intro">
@@ -27,19 +25,19 @@
             <h2>Imóveis em Destaque</h2>
             <div class="featured-properties">
                 <div class="property">
-                    <img src="" alt="Imagem do Imóvel 1">
-                    <h3>Imóvel 1</h3>
-                    <p>Descrição breve do Imóvel 1.</p>
+                    <img src="assets/casa1.jpg" alt="Imagem do Imóvel 1">
+                    <h3>Itaim Bibi | São Paulo</h3>
+                    <p>Casa com garagem e varanda em ótima localização. A casa conta com piscina e um belo jardim.</p>
                 </div>
                 <div class="property">
-                    <img src="" alt="Imagem do Imóvel 2">
-                    <h3>Imóvel 2</h3>
-                    <p>Descrição breve do Imóvel 2.</p>
+                    <img src="assets/casa2.jpg" alt="Imagem do Imóvel 2">
+                    <h3>Pinheiros | São Paulo</h3>
+                    <p>Duplex com portas e janelas de vidro. Localizado em condomínio fechado e com vista para a cidade.</p>
                 </div>
                 <div class="property">
-                    <img src="" alt="Imagem do Imóvel 3">
-                    <h3>Imóvel 3</h3>
-                    <p>Descrição breve do Imóvel 3.</p>
+                    <img src="assets/casa3.jpg" alt="Imagem do Imóvel 3">
+                    <h3>Brooklin | São Paulo</h3>
+                    <p>Duplex na natureza. Conta com piscina e gramado com deck em uma região repleta de árvores.</p>
                 </div>
             </div>
         </section>
